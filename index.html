@@ -16,7 +16,7 @@
 	<section class="pantalla-inicio">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-md-12 text-center">
+				<div class="col-xs-12 text-center">
 					<h1>Foodmap</h1>
 					
 						<svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
@@ -33,36 +33,89 @@
 <section class="vista-principal">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-md-12 text-center">
+			<div class="col-xs-12 text-center">
 				<h1>Foodmap</h1>
 				<hr>
 				<!-- mapa -->
+				<div class="map">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d53260.82129202134!2d-70.61255299984236!3d-33.45448214713963!3m2!1i1024!2i768!4f13.1!2m1!1srestaurant!5e0!3m2!1ses!2scl!4v1513128524140" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 				<p>Comida cerca de ti</p>
-				<!-- dropdown -->
-				 <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Filtrar restaurant <span class="glyphicon glyphicon-search pull-right"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Account Settings <span class="glyphicon glyphicon-cog pull-right"></span></a></li>
-            <li class="divider"></li>
-            <li><a href="#">User stats <span class="glyphicon glyphicon-stats pull-right"></span></a></li>
-            <li class="divider"></li>
-            <li><a href="#">Messages <span class="badge pull-right"> 42 </span></a></li>
-            <li class="divider"></li>
-            <li><a href="#">Favourites Snippets <span class="glyphicon glyphicon-heart pull-right"></span></a></li>
-            <li class="divider"></li>
-            <li><a href="#">Sign Out <span class="glyphicon glyphicon-log-out pull-right"></span></a></li>
-          </ul>
-        </li>
-      </ul>
-			</div>
+				<!-- dropdown tipos de comida-->
+				<select id="options" class="select-edit">
+				<option value="">Tipos de comida...</option>
+				<option value="china" class="chinesse-food">
+				Comida China</option>
+				<option value="italia" class="italian-food">
+				Comida italiana</option>
+				<option value="japon" class="japanesse-food">
+				Comida Japonesa</option>
+				</select>
+
+
+
+			
 		</div>
 	</div>
 </section>
 <!-- fin seccion 2 -->
 <!-- seccion 3 -->
 <section class="images">
+	<div class="container">
+		<div class="row ">
+				<div class="col-xs-4">
+				<div class="contenedor">
+					<img class="img-responsive china1" src="assets/img/china1.jpg" alt="">
+				<div class="name-food">
+					<p>Comida china</p>
+				</div>
+			</div>
+			</div>
+				<!--div class="contenedor">
+    			<img src="http://www.moonkitty.net/avatars/new-sailor-moon-images/new-sailor-moon-image-icon36.jpg" class="sailor" />
+    		<div class="sailor-overlay">
+      		<p>Hola</p>
+    	</div-->
+				<div class="col-xs-4">
+				<div class="cont">
+					<img class="img-responsive" src="assets/img/japon1.jpg" alt="">
+					<div class="name-food2">
+						<p>Comida japonesa</p>
+					</div>
+				</div>
+				</div>
+				<div class="col-xs-4">
+				<div class="cont">
+					<img class="img-responsive" src="assets/img/italia1.png" alt="">
+				</div>
+				<div id="name-food3">
+				<p>Comida Italiana</p>
+				</div>
+				</div>
+			
+			</div>
+			<div class="row">
+			<div class="col-xs-6">
+			<div class="cont">
+				<img class="img-responsive" src="assets/img/japon2.jpg" alt="">
+				<div id="name-food4">
+					<p>Comida japonesa</p>
+				</div>
+			</div>	
+			</div>
+			<div class="col-xs-6">
+			<div class="cont">
+				<img class="img-responsive" src="assets/img/china2.jpg" alt="">
+				<div id="name-food5">
+					<p>comida china</p>
+				</div>
+			</div>
+			</div>
+				
+			</div>
+
+		
+	</div>
 	
 </section>
 

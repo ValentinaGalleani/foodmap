@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<title>Foodmap</title>
+</head>
+<body>
+<!-- seccion 1 pantalla de inicio -->
+	<section class="pantalla-inicio">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-12 text-center">
+					<h1>Foodmap</h1>
+					
+						<svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+							<circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+						</svg>
+					
+				</div>
+			</div>
+
+		</div>
+</section>
+<!-- Fin seccion 1 pantalla de inicio -->
+<!-- seccion 2 vista principal -->
+<section class="vista-principal">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-12 text-center">
+				<h1>Foodmap</h1>
+				<hr>
+				<!-- mapa -->
+				<iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d53260.82129202134!2d-70.61255299984236!3d-33.45448214713963!3m2!1i1024!2i768!4f13.1!2m1!1srestaurant!5e0!3m2!1ses!2scl!4v1513128524140" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<p>Comida cerca de ti</p>
+				<!-- dropdown -->
+				 <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Filtrar restaurant <span class="glyphicon glyphicon-search pull-right"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Account Settings <span class="glyphicon glyphicon-cog pull-right"></span></a></li>
+            <li class="divider"></li>
+            <li><a href="#">User stats <span class="glyphicon glyphicon-stats pull-right"></span></a></li>
+            <li class="divider"></li>
+            <li><a href="#">Messages <span class="badge pull-right"> 42 </span></a></li>
+            <li class="divider"></li>
+            <li><a href="#">Favourites Snippets <span class="glyphicon glyphicon-heart pull-right"></span></a></li>
+            <li class="divider"></li>
+            <li><a href="#">Sign Out <span class="glyphicon glyphicon-log-out pull-right"></span></a></li>
+          </ul>
+        </li>
+      </ul>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- fin seccion 2 -->
+<!-- seccion 3 -->
+<section class="images">
+	
+</section>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
